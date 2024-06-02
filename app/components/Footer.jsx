@@ -15,14 +15,14 @@ export default function Footer() {
             © Design by Fatih. All rights reserved
           </p>
         </div>
-        <div className="flex flex-row justify-center md:justify-normal md:flex-col gap-4">
-          <div className="flex flex-row gap-8 text-xl md:text-4xl">
+        <div className="flex justify-center md:justify-normal flex-col gap-4">
+          <div className="flex flex-col gap-8 text-xl md:text-4xl">
             <FaInstagram/>
-            <a className='text-lg md:text-2xl' href="https://www.instagram.com/choirulnissaa/">@choirulnissaa</a>
+            <a className='text-lg md:text-2xl' href="https://www.instagram.com/choirulnissaa/">@choirulnissa</a>
           </div>
-          <div className="md:flex flex-row gap-8 text-xl md:text-4xl">
+          <div className="flex flex-col md:flex-row gap-8 text-xl md:text-4xl">
             <SiGmail />
-            <a className='text-xl md:text-2xl' href="https://twitter.com/alfathriz">nhartanto26@gmail.com</a>
+            <a className='text-xl md:text-2xl' href="">nhartanto26@gmail.com</a>
           </div>
         </div>
       </div>

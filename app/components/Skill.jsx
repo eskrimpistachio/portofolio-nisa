@@ -40,7 +40,7 @@ export default function Experience() {
                 <h1>{w.skillname}</h1>
               </div>
             </div>
-            <div className="flex flex-col md:w-1/2 gap-8">
+            <div className="flex flex-col w-full md:w-1/2 gap-8">
               <h3 className="font-medium">{w.desc}</h3>
             </div>
           </div>
